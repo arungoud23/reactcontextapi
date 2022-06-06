@@ -87,7 +87,7 @@ export default function Myform() {
                              <td>{e.address}</td>
                              <td>{e.department}</td>
                              <td>{e.salary}</td>
-                             <td>{e.maritialState=="on" ? "married":"single"}</td>
+                             <td>{e.maritialState==="on" ? "married":"single"}</td>
                              <td><img src={e.image} alt="" height={"200px"} width={"200px"} /></td>
                              <br></br>
                              
